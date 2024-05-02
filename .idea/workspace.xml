@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="First Commit!" />
+    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="Second Commit!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,10 +60,11 @@
       <recent name="C:\Users\Royi\IdeaProjects\intro_to_oop\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment1" />
       <recent name="C:\Users\Royi\IdeaProjects\intro_to_oop\src\assignment1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.OpenChessThreatTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="intro_to_oop" />
@@ -133,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OpenChessThreatTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OpenChessThreatTest.bishopThreat1_2P" />
         <item itemvalue="JUnit.OpenChessThreatTest.rookNoThreat1_2P" />
         <item itemvalue="JUnit.ChessThreatTest" />
@@ -158,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714645167713</updated>
       <workItem from="1714645168858" duration="2296000" />
-      <workItem from="1714647576382" duration="2156000" />
+      <workItem from="1714647576382" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -168,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714649524160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second Commit!">
+      <option name="closed" value="true" />
+      <created>1714649795323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714649795323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +188,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit!" />
+    <MESSAGE value="Second Commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second Commit!" />
   </component>
 </project>
