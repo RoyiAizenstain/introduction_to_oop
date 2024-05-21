@@ -54,7 +54,7 @@ public class CourseReport {
 
     public void setPoints(int points) {
         // Set the points of the course
-        if (points >= 0)
+        if (points > 0)
             this.points = points;
     }
 

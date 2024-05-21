@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 1 - Done!">
-      <change afterPath="$PROJECT_DIR$/src/assignment3/Ass3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/Assignment 3 v2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/CourseReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/GradingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment3/Student.java" afterDir="false" />
+    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 3 - In Progress!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment3/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment3/CourseReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +193,7 @@
       <workItem from="1715026986520" duration="783000" />
       <workItem from="1715272644081" duration="706000" />
       <workItem from="1716293338781" duration="120000" />
-      <workItem from="1716293477507" duration="4197000" />
+      <workItem from="1716293477507" duration="6097000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -223,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715027627371</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="assigment 3 - In Progress!">
+      <option name="closed" value="true" />
+      <created>1716301904107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716301904107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +238,8 @@
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Second Commit!" />
     <MESSAGE value="assigment 1 - Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assigment 1 - Done!" />
+    <MESSAGE value="assigment 3 - In Progress!" />
+    <option name="LAST_COMMIT_MESSAGE" value="assigment 3 - In Progress!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
