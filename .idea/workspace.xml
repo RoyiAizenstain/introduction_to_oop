@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 4 - On it!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment4/Ass4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Ass4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/BonusStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/BonusStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/CourseReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/GradStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/GradStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/GradingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/GradingSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assignment4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,6 +211,8 @@
       <workItem from="1717506208473" duration="98000" />
       <workItem from="1717506325893" duration="962000" />
       <workItem from="1717508948169" duration="3938000" />
+      <workItem from="1717517857444" duration="58000" />
+      <workItem from="1717519981293" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -268,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717493616361</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="assigment 4 - On it!">
+      <option name="closed" value="true" />
+      <created>1717517896983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717517896983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

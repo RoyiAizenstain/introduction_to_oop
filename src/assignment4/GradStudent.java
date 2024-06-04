@@ -16,7 +16,12 @@ public class GradStudent extends Student {
     // Copy constructor
     public GradStudent(GradStudent other) {
         super(other);
-        this.bonus = other.bonus;
+        if(other != null) {
+            this.bonus = other.bonus;
+        }
+        else{
+            this.bonus = 0;
+        }
     }
 
     // Getters and setters

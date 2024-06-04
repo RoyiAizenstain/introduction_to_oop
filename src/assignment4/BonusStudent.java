@@ -14,6 +14,10 @@ public class BonusStudent extends Student {
     // Copy constructor
     public BonusStudent(BonusStudent other) {
         super(other);
+        if(other == null){
+            this.mult = 1;
+            return;
+        }
         this.mult = other.mult;
     }
     // Getters and setters

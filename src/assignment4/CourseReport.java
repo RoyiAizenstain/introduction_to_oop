@@ -18,6 +18,12 @@ public class CourseReport {
 
     // Copy constructor
     public CourseReport(CourseReport other) {
+        if(other==null){
+            this.name = null;
+            this.points = 0;
+            this.grade = 0;
+            return;
+        }
         this.name = other.name;
         this.points = other.points;
         this.grade = other.grade;

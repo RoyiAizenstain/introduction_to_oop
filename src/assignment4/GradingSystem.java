@@ -16,6 +16,11 @@ public class GradingSystem {
 
     // Copy constructor
     public GradingSystem(GradingSystem other) {
+        if(other == null) {
+            this.name = null;
+            this.students = null;
+            return;
+        }
         this.name = other.name;
         this.students = other.students.clone();
     }
@@ -42,6 +47,7 @@ public class GradingSystem {
 
     // Add a student to the grading system
     public void addStudent(Student student) {
+        if(student == null) return;
         // Iterate over all students
         for (int i = 0; i < students.length; i++) {
             // If the student is null, add the student to the array

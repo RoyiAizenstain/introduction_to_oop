@@ -18,15 +18,21 @@ public class Student {
 
     // Copy constructor
     public Student(Student other) {
-        this.name = other.name;
-        this.id = other.id;
-        // Copy course reports
-        this.courseReports = new CourseReport[other.courseReports.length];
-        // Iterate over all course reports
-        for (int i = 0; i < other.courseReports.length; i++) {
-            // If the course report is not null, copy it
-            if (other.courseReports[i] != null)
-                this.courseReports[i] = new CourseReport(other.courseReports[i]);
+        if (other == null) {
+            this.name = null;
+            this.id = 0;
+            this.courseReports = null;
+        } else {
+            this.name = other.name;
+            this.id = other.id;
+            // Copy course reports
+            this.courseReports = new CourseReport[other.courseReports.length];
+            // Iterate over all course reports
+            for (int i = 0; i < other.courseReports.length; i++) {
+                // If the course report is not null, copy it
+                if (other.courseReports[i] != null)
+                    this.courseReports[i] = new CourseReport(other.courseReports[i]);
+            }
         }
     }
 
@@ -61,6 +67,9 @@ public class Student {
 
     // Add a course report to the student
     public void addCourse(CourseReport courseReport) {
+        if(courseReport == null) {
+            return;
+        }
         for (int i = 0; i < courseReports.length; i++) {
             if (courseReports[i] == null) {
                 courseReports[i] = new CourseReport(courseReport);
@@ -95,6 +104,9 @@ public class Student {
     }
 
     public boolean equals(Student other) {
+        if (other == null) {
+            return false;
+        }
         // Iterate over all course reports
         Boolean sameCourseReports = true;
         int counti = 0;
