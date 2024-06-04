@@ -1,4 +1,4 @@
-package assignment3;
+package assignment4;
 
 // This class represents a student.
 public class Student {
@@ -38,6 +38,7 @@ public class Student {
 
     // Set the name of the student
     public void setName(String name) {
+        // Set the name of the student
         if (name != null && !name.isEmpty()) {
             this.name = name;
         }

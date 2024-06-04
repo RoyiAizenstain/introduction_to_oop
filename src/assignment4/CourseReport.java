@@ -1,4 +1,4 @@
-package assignment3;
+package assignment4;
 
 // This class represents a course report.
 public class CourseReport {
