@@ -36,12 +36,12 @@ public class CourseReport {
             grade = 100;
         this.grade = grade;
     }
-
+    // Get the name of the course
     public String getName() {
         // Return the name of the course
         return this.name;
     }
-
+    // Set the name of the course
     public void setName(String name) {
         // Set the name of the course
         if (name != null && !name.isEmpty()) {
@@ -49,6 +49,7 @@ public class CourseReport {
         }
     }
 
+    // Get the points of the course
     public int getPoints() {
         // Return the points of the course
         return this.points;
@@ -58,6 +59,17 @@ public class CourseReport {
         // Set the points of the course
         if (points > 0)
             this.points = points;
+    }
+
+    // Calculate the weighted average of the course
+    public boolean equals(CourseReport other) {
+        if (other == null) return false;
+        return this.name.equals(other.name) && this.points == other.points && this.grade == other.grade;
+    }
+
+    // Calculate the weighted average of the course
+    public String toString() {
+        return ("[" + this.name + ", " + this.points + ", " + this.grade + "]");
     }
 
     // Instance fields

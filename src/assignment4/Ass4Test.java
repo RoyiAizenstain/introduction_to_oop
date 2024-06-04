@@ -106,4 +106,13 @@ public class Ass4Test {
         s1.addCourse(GetCourseReport2());
         assertEquals("student toString is wrong", "Chris P. Bacon: 2 [[IOOP, 1, 90.0], [AP, 2, 93.0]]", s1.toString());
     }
+    @Test
+    public void studentCtr_1P(){
+        assignment4.Student student = new assignment4.Student("Amy Stake", 1, 32);
+        student.addCourse(new CourseReport("IOOP", 1, 90));
+        student.addCourse(new CourseReport("IOOP", 1, 90));
+        student.addCourse(new CourseReport("IOOP", 1, 90));
+        assertEquals("incorrect name", "Amy Stake", student.getName());
+        assertEquals("incorrect id", 1, student.getId());
+    }
 }

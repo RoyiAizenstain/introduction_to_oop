@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 3 - Done!">
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Ass4Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Assignment 4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/BonusStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/CourseReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/GradStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/GradingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment4/Student.java" afterDir="false" />
+    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 4 - On it!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment3/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment3/CourseReport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment3/GradingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment3/GradingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/Ass4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Ass4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/BonusStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/BonusStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/CourseReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/GradStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/GradStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment4/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,8 @@
     &quot;JUnit.Ass3Test.addStudent_1P.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Ass3Test.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.Ass4Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Ass4Test.studentCtr_1P.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Ass4Test.studentEquality_1P.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.ChessThreatTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.OpenChessThreatTest.bishopThreat1_2P.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.OpenChessThreatTest.executor&quot;: &quot;Run&quot;,
@@ -102,7 +99,7 @@
       <recent name="C:\Users\Royi\IdeaProjects\intro_to_oop\src\assignment1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Ass4Test">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="intro_to_oop" />
@@ -125,48 +122,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ass3Test.addStudent_1P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ass4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro_to_oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment3.*" />
+          <option name="PATTERN" value="assignment4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assignment3" />
-      <option name="MAIN_CLASS_NAME" value="assignment3.Ass3Test" />
-      <option name="METHOD_NAME" value="addStudent_1P" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenChessThreatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intro_to_oop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignment1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assignment1" />
-      <option name="MAIN_CLASS_NAME" value="assignment1.OpenChessThreatTest" />
+      <option name="PACKAGE_NAME" value="assignment4" />
+      <option name="MAIN_CLASS_NAME" value="assignment4.Ass4Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenChessThreatTest.bishopThreat1_2P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ass4Test.studentCtr_1P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro_to_oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment1.*" />
+          <option name="PATTERN" value="assignment4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assignment1" />
-      <option name="MAIN_CLASS_NAME" value="assignment1.OpenChessThreatTest" />
-      <option name="METHOD_NAME" value="bishopThreat1_2P" />
+      <option name="PACKAGE_NAME" value="assignment4" />
+      <option name="MAIN_CLASS_NAME" value="assignment4.Ass4Test" />
+      <option name="METHOD_NAME" value="studentCtr_1P" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ass4Test.studentEquality_1P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intro_to_oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment4" />
+      <option name="MAIN_CLASS_NAME" value="assignment4.Ass4Test" />
+      <option name="METHOD_NAME" value="studentEquality_1P" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ass4Test" />
         <item itemvalue="JUnit.Ass3Test" />
-        <item itemvalue="JUnit.Ass3Test.addStudent_1P" />
+        <item itemvalue="JUnit.Ass4Test.studentEquality_1P" />
+        <item itemvalue="JUnit.Ass4Test.studentCtr_1P" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.OpenChessThreatTest" />
-        <item itemvalue="JUnit.OpenChessThreatTest.bishopThreat1_2P" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +207,10 @@
       <workItem from="1717012966351" duration="1196000" />
       <workItem from="1717015778299" duration="70000" />
       <workItem from="1717492307496" duration="608000" />
-      <workItem from="1717492941446" duration="629000" />
+      <workItem from="1717492941446" duration="12793000" />
+      <workItem from="1717506208473" duration="98000" />
+      <workItem from="1717506325893" duration="962000" />
+      <workItem from="1717508948169" duration="3938000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -260,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717015837610</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="assigment 4 - On it!">
+      <option name="closed" value="true" />
+      <created>1717493616361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717493616361</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +281,8 @@
     <MESSAGE value="assigment 1 - Done!" />
     <MESSAGE value="assigment 3 - In Progress!" />
     <MESSAGE value="assigment 3 - Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assigment 3 - Done!" />
+    <MESSAGE value="assigment 4 - On it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="assigment 4 - On it!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
