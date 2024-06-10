@@ -5,24 +5,6 @@ import java.util.Iterator;
 
 // This class represents a student.
 public class Student implements Iterable<CourseReport> {
-    public Iterator<CourseReport> iterator() {
-        return new StudentIterator();
-    }
-
-    private class StudentIterator implements Iterator<CourseReport> {
-        private int currentIndex = 0;
-
-        @Override
-        public boolean hasNext() {
-            return currentIndex < courseReports.length && courseReports[currentIndex] != null;
-        }
-
-        @Override
-        public CourseReport next() {
-            return courseReports[currentIndex++];
-        }
-    }
-
     // Default constructor
     public Student() {
         this.name = null;
@@ -54,20 +36,6 @@ public class Student implements Iterable<CourseReport> {
                 if (other.courseReports[i] != null)
                     this.courseReports[i] = new CourseReport(other.courseReports[i]);
             }
-        }
-    }
-
-    public static class AverageComparator implements Comparator<Student> {
-        @Override
-        public int compare(Student s1, Student s2) {
-            return Double.compare(s1.getWeightedAverage(), s2.getWeightedAverage());
-        }
-    }
-
-    public static class PointsComparator implements Comparator<Student> {
-        @Override
-        public int compare(Student s1, Student s2) {
-            return Integer.compare((int) s1.getTotalPoints(), (int) s2.getTotalPoints());
         }
     }
 
@@ -113,6 +81,7 @@ public class Student implements Iterable<CourseReport> {
         }
     }
 
+    // Get the total points of the student
     public double getTotalPoints() {
         double totalPoints = 0;
         // Iterate over all course reports
@@ -131,39 +100,40 @@ public class Student implements Iterable<CourseReport> {
         // Iterate over all course reports
         for (int i = 0; i < courseReports.length; i++) {
             if (courseReports[i] != null) {
+                // Calculate the weighted average
                 sum += courseReports[i].getGrade() * courseReports[i].getPoints();
                 totalPoints += courseReports[i].getPoints();
             }
         }
-        return sum / totalPoints;
+        double weightedAverage = sum / totalPoints;
+        // Ensure the weighted average is between 0 and 100
+        if (weightedAverage > 100) {
+            return 100;
+        } else if (weightedAverage < 0) {
+            return 0;
+        } else {
+            return weightedAverage;
+        }
+
     }
 
-    public boolean equals(Student other) {
-        if (other == null) {
+
+    @Override
+    // Compare two students
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
             return false;
         }
-        // Iterate over all course reports
-        Boolean sameCourseReports = true;
-        int counti = 0;
-        int countj = 0;
-        // Iterate over all course reports
-        for (int i = 0; i < this.courseReports.length; i++) {
-            if (this.courseReports[i] == null) {
-                continue;
-            }
-            counti++;
-            for (int j = 0; j < other.courseReports.length; j++) {
-                if (other.courseReports[j] == null) {
-                    continue;
-                }
-                if (other.courseReports[j].equals(this.courseReports[i])) {
-                    countj++;
-                }
-            }
-        }
-        return this.name.equals(other.name) && this.id == other.id && counti == countj;
+        Student other = (Student) obj;
+        return this.name.equals(other.name) && this.id == other.id;
     }
 
+
+    @Override
+    // Return a string representation of the student
     public String toString() {
         // Iterate over all course reports
         String courseReportsOutput = "[";
@@ -181,4 +151,43 @@ public class Student implements Iterable<CourseReport> {
     private String name;
     private int id;
     private CourseReport[] courseReports;
+
+    // Iterator
+    public Iterator<CourseReport> iterator() {
+        return new StudentIterator();
+    }
+
+    // Private class for the iterator
+    private class StudentIterator implements Iterator<CourseReport> {
+        private int currentIndex = 0;
+
+        @Override
+        // Check if there is a next course report
+        public boolean hasNext() {
+            return currentIndex < courseReports.length && courseReports[currentIndex] != null;
+        }
+
+        @Override
+        // Get the next course report
+        public CourseReport next() {
+            return courseReports[currentIndex++];
+        }
+    }
+
+    public static class AverageComparator implements Comparator<Student> {
+        @Override
+        // Compare two students by their average
+        public int compare(Student s1, Student s2) {
+            return Double.compare(s1.getWeightedAverage(), s2.getWeightedAverage());
+        }
+    }
+
+    public static class CoursePointsComparator implements Comparator<Student> {
+        @Override
+        // Compare two students by their total points
+        public int compare(Student s1, Student s2) {
+            return Integer.compare((int) s1.getTotalPoints(), (int) s2.getTotalPoints());
+        }
+    }
+
 }

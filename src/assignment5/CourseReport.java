@@ -18,7 +18,7 @@ public class CourseReport implements Comparable<CourseReport> {
 
     // Copy constructor
     public CourseReport(CourseReport other) {
-        if(other==null){
+        if (other == null) {
             this.name = null;
             this.points = 0;
             this.grade = 0;
@@ -42,11 +42,13 @@ public class CourseReport implements Comparable<CourseReport> {
             grade = 100;
         this.grade = grade;
     }
+
     // Get the name of the course
     public String getName() {
         // Return the name of the course
         return this.name;
     }
+
     // Set the name of the course
     public void setName(String name) {
         // Set the name of the course
@@ -67,8 +69,11 @@ public class CourseReport implements Comparable<CourseReport> {
             this.points = points;
     }
 
+
     @Override
+    // Compare two course reports
     public boolean equals(Object obj) {
+
         if (obj == this) {
             return true;
         }
@@ -79,12 +84,15 @@ public class CourseReport implements Comparable<CourseReport> {
         return this.name.equals(other.name) && this.points == other.points && this.grade == other.grade;
     }
 
-    // Calculate the weighted average of the course
+
+    @Override
+    // Return a string representation of the course report
     public String toString() {
         return ("[" + this.name + ", " + this.points + ", " + this.grade + "]");
     }
 
     @Override
+    // Compare two course reports
     public int compareTo(CourseReport other) {
         // Compare by grade
         int gradeComparison = Double.compare(this.grade, other.grade);
