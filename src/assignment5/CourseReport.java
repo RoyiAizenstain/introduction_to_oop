@@ -1,0 +1,109 @@
+package assignment5;
+
+// This class represents a course report.
+public class CourseReport implements Comparable<CourseReport> {
+    // Default constructor
+    public CourseReport() {
+        this.name = null;
+        this.points = 0;
+        this.grade = 0;
+    }
+
+    // Constructor
+    public CourseReport(String name, int points, double grade) {
+        this.name = name;
+        this.points = points;
+        this.grade = grade;
+    }
+
+    // Copy constructor
+    public CourseReport(CourseReport other) {
+        if(other==null){
+            this.name = null;
+            this.points = 0;
+            this.grade = 0;
+            return;
+        }
+        this.name = other.name;
+        this.points = other.points;
+        this.grade = other.grade;
+    }
+
+    // Getters and setters
+    public double getGrade() {
+        return this.grade;
+    }
+
+    public void setGrade(double grade) {
+        // Ensure grade is between 0 and 100
+        if (grade < 0)
+            grade = 0;
+        else if (grade > 100)
+            grade = 100;
+        this.grade = grade;
+    }
+    // Get the name of the course
+    public String getName() {
+        // Return the name of the course
+        return this.name;
+    }
+    // Set the name of the course
+    public void setName(String name) {
+        // Set the name of the course
+        if (name != null && !name.isEmpty()) {
+            this.name = name;
+        }
+    }
+
+    // Get the points of the course
+    public int getPoints() {
+        // Return the points of the course
+        return this.points;
+    }
+
+    public void setPoints(int points) {
+        // Set the points of the course
+        if (points > 0)
+            this.points = points;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj == null || obj.getClass() != this.getClass()) {
+            return false;
+        }
+        CourseReport other = (CourseReport) obj;
+        return this.name.equals(other.name) && this.points == other.points && this.grade == other.grade;
+    }
+
+    // Calculate the weighted average of the course
+    public String toString() {
+        return ("[" + this.name + ", " + this.points + ", " + this.grade + "]");
+    }
+
+    @Override
+    public int compareTo(CourseReport other) {
+        // Compare by grade
+        int gradeComparison = Double.compare(this.grade, other.grade);
+        if (gradeComparison != 0) {
+            return gradeComparison;
+        }
+
+        // Compare by points
+        int pointsComparison = Integer.compare(this.points, other.points);
+        if (pointsComparison != 0) {
+            return pointsComparison;
+        }
+
+        // Compare by name
+        return this.name.compareTo(other.name);
+    }
+
+    // Instance fields
+    private String name;
+    private int points;
+    private double grade;
+}

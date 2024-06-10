@@ -16,10 +16,9 @@ public class GradStudent extends Student {
     // Copy constructor
     public GradStudent(GradStudent other) {
         super(other);
-        if(other != null) {
+        if (other != null) {
             this.bonus = other.bonus;
-        }
-        else{
+        } else {
             this.bonus = 0;
         }
     }
@@ -48,6 +47,8 @@ public class GradStudent extends Student {
             average = average - this.bonus;
         if (average > 100) {
             return 100;
+        } else if (average < 0) {
+            return 0;
         } else {
             return average;
         }
