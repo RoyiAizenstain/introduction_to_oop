@@ -31,6 +31,8 @@ public class CourseReport implements Comparable<CourseReport>, Serializable {
             String line = reader.readLine();
             String[] parts = line.split(", ");
             this.name = parts[0].substring(1);
+            if (this.name.equals("null"))
+                this.name = null;
             this.points = Integer.parseInt(parts[1]);
             this.grade = Double.parseDouble(parts[2].substring(0, parts[2].length() - 1));
 

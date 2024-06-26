@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assignment5 - On it!">
-      <change afterPath="$PROJECT_DIR$/cr.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment7/Ass7Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment7/Assignment 7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment7/AverageCalcException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment7/CourseReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assignment7/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.dat" afterDir="false" />
+    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assignment7 - Done!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment6/GradingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment6/GradingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment7/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment7/CourseReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718037887097</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="assignment7 - Done!">
+      <option name="closed" value="true" />
+      <created>1719408333782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719408333782</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +248,8 @@
     <MESSAGE value="Second Commit!" />
     <MESSAGE value="assignment2 - Done!" />
     <MESSAGE value="assignment5 - On it!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment5 - On it!" />
+    <MESSAGE value="assignment7 - Done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment7 - Done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
