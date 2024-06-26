@@ -64,6 +64,9 @@ public class GradingSystem {
         double totalStudents = 0;
         // Iterate over all students
         try {
+            if(students.length == 0) {
+                throw new AverageCalcException("No students in the system");
+            }
             for (int i = 0; i < students.length; i++) {
                 // If the student is not null, add their weighted average to the sum
                 if (students[i] != null) {
