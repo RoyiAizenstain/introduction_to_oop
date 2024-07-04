@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assignment7 - Done!">
+    <list default="true" id="dc515e25-2e85-415b-82b1-0737574efedc" name="Changes" comment="assigment 4 - On it!">
+      <change afterPath="$PROJECT_DIR$/src/assignment8/Ass8Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment8/Assignment 9.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assignment8/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment7/CourseReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment7/CourseReport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RoyiAizenstain&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RoyiAizenstain/introduction_to_oop.git&quot;,
+    &quot;accountId&quot;: &quot;1d546f42-28f0-453e-a5dc-38b8087060cf&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -32,12 +53,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.Ass3Test.addStudent_1P.executor": "Run",
+    "JUnit.Ass3Test.executor": "Run",
     "JUnit.Ass4Test.executor": "Run",
-    "JUnit.Ass5Test.courseReportCompare1_1P.executor": "Run",
-    "JUnit.Ass5Test.executor": "Run",
+    "JUnit.Ass4Test.studentCtr_1P.executor": "Run",
+    "JUnit.Ass4Test.studentEquality_1P.executor": "Run",
     "JUnit.Ass6Test.executor": "Run",
-    "JUnit.Ass7Test.executor": "Run",
-    "JUnit.Ass7Test.studentSerializeTest_1P.executor": "Run",
+    "JUnit.Ass8Test.executor": "Run",
     "JUnit.ChessThreatTest.executor": "Run",
     "JUnit.OpenChessThreatTest.bishopThreat1_2P.executor": "Run",
     "JUnit.OpenChessThreatTest.executor": "Run",
@@ -48,8 +70,9 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Royi/IdeaProjects/introduction_to_oop/src/assignment7",
+    "last_opened_file_path": "C:/Users/home/IdeaProjects/introduction_to_oop/src/assignment6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,24 +82,43 @@
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment7" />
-      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment5" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment6" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment4" />
       <recent name="C:\Users\Royi\IdeaProjects\intro_to_oop\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment7" />
-      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment5" />
-      <recent name="C:\Users\Royi\IdeaProjects\introduction_to_oop\src\assignment1" />
-      <recent name="C:\Users\Royi\IdeaProjects\intro_to_oop\src\assignment1" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment8" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment7" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment6" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment4" />
+      <recent name="C:\Users\home\IdeaProjects\introduction_to_oop\src\assignment3" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="assignment6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Ass7Test">
+  <component name="RunManager" selected="JUnit.Ass8Test">
+    <configuration name="Ass3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intro_to_oop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment3" />
+      <option name="MAIN_CLASS_NAME" value="assignment3.Ass3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ass4Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro_to_oop" />
       <extension name="coverage">
@@ -92,17 +134,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ass5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ass4Test.studentEquality_1P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro_to_oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment5.*" />
+          <option name="PATTERN" value="assignment4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assignment5" />
-      <option name="MAIN_CLASS_NAME" value="assignment5.Ass5Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="assignment4" />
+      <option name="MAIN_CLASS_NAME" value="assignment4.Ass4Test" />
+      <option name="METHOD_NAME" value="studentEquality_1P" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,52 +165,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ass7Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Ass8Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro_to_oop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment7.*" />
+          <option name="PATTERN" value="assignment8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="assignment7" />
-      <option name="MAIN_CLASS_NAME" value="assignment7.Ass7Test" />
+      <option name="PACKAGE_NAME" value="assignment8" />
+      <option name="MAIN_CLASS_NAME" value="assignment8.Ass8Test" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ass7Test.studentSerializeTest_1P" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="intro_to_oop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignment7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="assignment7" />
-      <option name="MAIN_CLASS_NAME" value="assignment7.Ass7Test" />
-      <option name="METHOD_NAME" value="studentSerializeTest_1P" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Ass7Test" />
-        <item itemvalue="JUnit.Ass7Test.studentSerializeTest_1P" />
+        <item itemvalue="JUnit.Ass8Test" />
         <item itemvalue="JUnit.Ass6Test" />
-        <item itemvalue="JUnit.Ass5Test" />
         <item itemvalue="JUnit.Ass4Test" />
+        <item itemvalue="JUnit.Ass3Test" />
+        <item itemvalue="JUnit.Ass4Test.studentEquality_1P" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
       </set>
     </attachedChunks>
   </component>
@@ -181,9 +208,22 @@
       <updated>1714645167713</updated>
       <workItem from="1714645168858" duration="2296000" />
       <workItem from="1714647576382" duration="2629000" />
-      <workItem from="1715879297453" duration="1073000" />
-      <workItem from="1715966848397" duration="1634000" />
-      <workItem from="1718044825023" duration="839000" />
+      <workItem from="1714980120300" duration="203000" />
+      <workItem from="1715026911855" duration="52000" />
+      <workItem from="1715026986520" duration="783000" />
+      <workItem from="1715272644081" duration="706000" />
+      <workItem from="1716293338781" duration="120000" />
+      <workItem from="1716293477507" duration="6152000" />
+      <workItem from="1717012777662" duration="99000" />
+      <workItem from="1717012966351" duration="1196000" />
+      <workItem from="1717015778299" duration="70000" />
+      <workItem from="1717492307496" duration="608000" />
+      <workItem from="1717492941446" duration="12793000" />
+      <workItem from="1717506208473" duration="98000" />
+      <workItem from="1717506325893" duration="962000" />
+      <workItem from="1717508948169" duration="3938000" />
+      <workItem from="1717517857444" duration="58000" />
+      <workItem from="1717519981293" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit!">
       <option name="closed" value="true" />
@@ -201,31 +241,55 @@
       <option name="project" value="LOCAL" />
       <updated>1714649795323</updated>
     </task>
-    <task id="LOCAL-00003" summary="assignment2 - Done!">
+    <task id="LOCAL-00003" summary="assigment 1 - Done!">
       <option name="closed" value="true" />
-      <created>1715619002687</created>
+      <created>1715027627371</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1715619002687</updated>
+      <updated>1715027627371</updated>
     </task>
-    <task id="LOCAL-00004" summary="assignment5 - On it!">
+    <task id="LOCAL-00004" summary="assigment 3 - In Progress!">
       <option name="closed" value="true" />
-      <created>1718037887097</created>
+      <created>1716301904107</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1718037887097</updated>
+      <updated>1716301904107</updated>
     </task>
-    <task id="LOCAL-00005" summary="assignment7 - Done!">
+    <task id="LOCAL-00005" summary="assigment 3 - Done!">
       <option name="closed" value="true" />
-      <created>1719408333782</created>
+      <created>1716303921459</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1719408333782</updated>
+      <updated>1716303921459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="assigment 3 - Done!">
+      <option name="closed" value="true" />
+      <created>1717015837610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717015837610</updated>
+    </task>
+    <task id="LOCAL-00007" summary="assigment 4 - On it!">
+      <option name="closed" value="true" />
+      <created>1717493616361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717493616361</updated>
+    </task>
+    <task id="LOCAL-00008" summary="assigment 4 - On it!">
+      <option name="closed" value="true" />
+      <created>1717517896983</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717517896983</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,28 +310,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First Commit!" />
     <MESSAGE value="Second Commit!" />
-    <MESSAGE value="assignment2 - Done!" />
-    <MESSAGE value="assignment5 - On it!" />
-    <MESSAGE value="assignment7 - Done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment7 - Done!" />
+    <MESSAGE value="assigment 1 - Done!" />
+    <MESSAGE value="assigment 3 - In Progress!" />
+    <MESSAGE value="assigment 3 - Done!" />
+    <MESSAGE value="assigment 4 - On it!" />
+    <option name="LAST_COMMIT_MESSAGE" value="assigment 4 - On it!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/assignment5/Student.java</url>
-          <line>122</line>
-          <properties class="assignment5.Student" method="equals">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignment3/GradingSystem.java</url>
+          <line>48</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/assignment3/Ass3Test.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
